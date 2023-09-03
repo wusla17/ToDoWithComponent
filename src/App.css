@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: "baloo_paaji_2regular";
+}
+
+@font-face {
+    font-family: "baloo_paaji_2regular";
+    src: url("./components/assets/fonts/baloopaaji2-regular-webfont.woff2")
+            format("woff2"),
+        url("./components/assets/fonts/baloopaaji2-regular-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    width: 60%;
+    border-right: 1px solid #242424;
+    border-left: 1px solid #242424;
+    padding: 20px 10%;
+}
+.mainText { 
+    text-align: center;
+    /* font-family: 'baloopaaji2-regular-webfont'; */
+}
+.content ul {
+    list-style: circle;
+}
+.content ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.Deletebutton {
+    background: #FFF;
+    border: none;
+}
+.inputList {
+    width: 47%;
+    height: 39px;
+    padding: 20px 10px;
+    border: none;
+}
+.inputList:focus {
+    /* border-color: #646cff; */
+    /* border: 1px solid #646cff; */
+    border: none;
+}
+.addButton {
+    width: 16%;
+    height: 39px;
+    background-color: #242424;
+    color: #FFF;
+    border-radius: 8px;
+    font-size: 11px;
+}
+.Complete {
+    border: 1px solid #242424;
+    height: 23px;
+    width: 24px;
+    border-radius: 100px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.mainDiv1  {
+    display: flex;
+    align-items: center;
+}
+.revert {
+    background: #FFF;
+    border: none;
+}
+.completed {
+    color: green;
+    /* border: 1px solid green; */
+}
+.inputin {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
